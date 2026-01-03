@@ -1,0 +1,7 @@
+service
+about/why choose us
+emergency
+reviews
+faq
+contact section(map bhi)
+footer
