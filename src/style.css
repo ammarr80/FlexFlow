@@ -11,9 +11,64 @@ body {
   background-color: #008cff;
 }
 
+.text-primary {
+  color: #008cff;
+}
+
 .bg-custom-green {
   background-color: #63de9a;
 }
 
-header {
+#hero-btn {
+  z-index: 5;
+}
+
+#hero-btn::after {
+  content: '';
+  width: 135px;
+  height: 20px;
+  background-color: #000;
+  position: absolute;
+  bottom: -15px;
+  left: 35.3rem;
+  border-radius: 8px;
+  z-index: -1;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.service-cards::after {
+  content: '';
+  position: absolute;
+  width: 600px;
+  height: 30px;
+  background-color: #008cff;
+  transform: rotate(-45deg);
+  z-index: -10;
+}
+
+.service-cards {
+  background-color: #fff;
+  transition: all ease-in-out 300ms;
+}
+
+.service-cards:hover {
+  transform: translateY(-8px);
+}
+
+.service-cards:hover::after {
+  animation: slide 0.7s ease-in-out;
+}
+
+@keyframes slide {
+  0% {
+    left: -310px;
+    top: 0;
+  }
+  100% {
+    left: 180px;
+    top: 140px;
+  }
 }
