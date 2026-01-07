@@ -5,3 +5,134 @@ reviews
 faq
 contact section(map bhi)
 footer
+
+about section bnaoo
+with image in background (of the team)
+
+google review ki wo card and online support wala button and go back up wala button
+
+
+<div id="cursorBall" class="fixed w-16 h-16 blur-xl opacity-90 border bg-blue-500 z-50 rounded-full pointer-events-none -translate-x-1/2 -translate-y-1/2 hidden"></div>
+        <script>
+          const cards = document.querySelectorAll(".service-cards");
+          const ball = document.getElementById("cursorBall");
+
+          cards.forEach(card => {
+            card.addEventListener("mouseenter", () => {
+              ball.classList.remove("hidden")
+            });
+            card.addEventListener("mouseleave", () => {
+              ball.classList.add("hidden");
+            })
+            // moving ball acc to the mouse's position
+            card.addEventListener("mousemove", (e) => {
+              ball.style.left = e.clientX + 'px';
+              ball.style.top = e.clientY + 'px';
+            })
+          });
+
+
+</script>
+
+
+ <header class="h-[70dvh] grid items-center">
+      <div class="">
+        <nav class="space-x-16 flex items-center justify-center">
+          <a
+            href="./about.html"
+            class="text-gray-500 hover:underline hover:text-gray-600 transition-all duration-300"
+            >About</a
+          >
+          <a
+            href="#services"
+            class="text-gray-500 hover:underline hover:text-gray-600 transition-all duration-300"
+            >Services</a
+          >
+          <a
+            href="#cta"
+            class="text-gray-500 hover:underline hover:text-gray-600 transition-all duration-300"
+            >Contact</a
+          >
+          <a
+            href="#reviews"
+            class="text-gray-500 hover:underline hover:text-gray-600 transition-all duration-300"
+            >Reviews</a
+          >
+          <a
+            href="#footer"
+            class="text-gray-500 hover:underline hover:text-gray-600 transition-all duration-300"
+            >Other links</a
+          >
+        </nav>
+        <div class="max-w-[90%] mx-auto">
+          <h2 class="font-bold text-5xl max-w-[20ch] mb-6 mt-16 leading-tight">
+            Plumbing Solutions, Tailored For You
+          </h2>
+          <p class="max-w-[45ch] leading-normal text-base text-gray-600 mb-9">
+            We provide reliable plumbing services for homes and businesses. Our
+            team focuses on quality work, clear pricing, and fast response
+            times.
+          </p>
+
+          <div class="mb-10">
+            <div
+              class="flex flex-col items-center justify-center gap-6 inline-block"
+            >
+              <div
+                class="button w-42 h-14 bg-[#008cff] rounded-lg cursor-pointer select-none hover:translate-y-2 hover:[box-shadow:0_0px_0_0_#000,0_0px_0_0] hover:border-b-[0px] transition-all duration-300 [box-shadow:0_10px_0_0_#000,0_12px_0_0] border-b-[1px] border-blue-400"
+              >
+                <span
+                  class="flex flex-col justify-center items-center h-full text-white font-bold text-lg"
+                  >BOOK NOW</span
+                >
+              </div>
+            </div>
+            <div
+              class="flex flex-col items-center justify-center gap-6 inline-block"
+            >
+              <div
+                class="button w-60 h-14 bg-yellow-300 text-black rounded-lg cursor-pointer select-none hover:translate-y-2 hover:[box-shadow:0_0px_0_0_#000,0_0px_0_0] hover:border-b-[0px] transition-all duration-300 [box-shadow:0_10px_0_0_#000,0_12px_0_0] border-b-[1px] border-black"
+              >
+                <span
+                  class="flex flex-col justify-center items-center h-full font-bold text-lg"
+                  >EMERGENCY SERVICE</span
+                >
+              </div>
+            </div>
+          </div>
+          <!-- <div class="pb-6 pt-4">
+            <p
+              class="text-gray-600 text-sm flex items-center gap-4 mx-auto block justify-center"
+            >
+              <span>Licensed</span> • <span>Same-Day Service</span> •
+              <span>Upfront Pricing</span>
+            </p>
+          </div> -->
+        </div>
+      </div>
+    </header>
+
+    <main class="">
+      <section
+        id="stats"
+        class="max-w-[90%] mx-auto bg-[#008cff]/20 rounded-lg py-14"
+      >
+        <div class="flex items-center text-center justify-around gap-8">
+          <div class="flex flex-col gap-2">
+            <h3 class="text-primary font-extrabold text-4xl">500+</h3>
+            <p class="text-sm">Projects Completed Successfully</p>
+          </div>
+          <div class="flex flex-col gap-2">
+            <h3 class="text-primary font-extrabold text-4xl">300+</h3>
+            <p class="text-sm">Satisfied Customers Served</p>
+          </div>
+          <div class="flex flex-col gap-2">
+            <h3 class="text-primary font-extrabold text-4xl">15+</h3>
+            <p class="text-sm">Years Of Experience</p>
+          </div>
+          <div class="flex flex-col gap-2">
+            <h3 class="text-primary font-extrabold text-4xl">24/7</h3>
+            <p class="text-sm">Emergency Service Available</p>
+          </div>
+        </div>
+      </section>

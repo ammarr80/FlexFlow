@@ -93,15 +93,26 @@
 
     <main class="">
       <section
-        class="block mx-auto w-full text-center flex flex-col items-center justify-center max-w-[90%] mx-auto"
+        id="stats"
+        class="max-w-[90%] mx-auto bg-[#008cff]/20 rounded-lg py-14"
       >
-        <h3>Trusted by 1000+ customers</h3>
-        <div class="flex items-center gap-1">
-          <i
-            data-lucide="trending-up"
-            class="bg-black text-white text-sm rounded-full w-4 h-4"
-          ></i>
-          <p>93% customers come to us again</p>
+        <div class="flex items-center text-center justify-around gap-8">
+          <div class="flex flex-col gap-2">
+            <h3 class="text-primary font-extrabold text-4xl">500+</h3>
+            <p class="text-sm">Projects Completed Successfully</p>
+          </div>
+          <div class="flex flex-col gap-2">
+            <h3 class="text-primary font-extrabold text-4xl">300+</h3>
+            <p class="text-sm">Satisfied Customers Served</p>
+          </div>
+          <div class="flex flex-col gap-2">
+            <h3 class="text-primary font-extrabold text-4xl">15+</h3>
+            <p class="text-sm">Years Of Experience</p>
+          </div>
+          <div class="flex flex-col gap-2">
+            <h3 class="text-primary font-extrabold text-4xl">24/7</h3>
+            <p class="text-sm">Emergency Service Available</p>
+          </div>
         </div>
       </section>
 
@@ -222,6 +233,71 @@
           </div>
         </div>
       </section>
+      <section
+        class="block mx-auto w-full text-center flex flex-col items-center justify-center max-w-[90%] mx-auto mb-6"
+      >
+        <h3>Trusted by 1000+ customers</h3>
+        <div class="flex items-center gap-1">
+          <i
+            data-lucide="trending-up"
+            class="bg-black text-white text-sm rounded-full w-4 h-4"
+          ></i>
+          <p>93% customers come to us again</p>
+        </div>
+      </section>
+
+      <section id="services" class="grid grid-cols-2 max-w-[90%] mx-auto">
+        <div>
+          <h2 class="font-bold text-4xl">Services We Offer</h2>
+          <p class="text-gray-600 max-w-[100ch] leading-normal mb-3">
+            We handle all types of plumbing work including repairs, new
+            installations, maintenance, and inspections. Our services are
+            designed to keep your systems working properly.
+          </p>
+
+          <a
+            href=""
+            class="text-white font-bold bg-primary px-6 rounded-lg py-4 hover:scale-90 transform duration-300 transition-all inline-block"
+            >View All Services</a
+          >
+
+          <div>
+            <div class="flex items-center gap-1">
+              <i data-lucide="circle-check-big"></i>
+              <p class="text-sm text-gray-600">
+                Fast response for urgent plumbing issues.
+              </p>
+            </div>
+            <div class="flex items-center gap-1">
+              <i data-lucide="circle-check-big"></i>
+              <p class="text-sm text-gray-600">
+                Clear pricing with no hidden charges.
+              </p>
+            </div>
+            <div class="flex items-center gap-1">
+              <i data-lucide="circle-check-big"></i>
+              <p class="text-sm text-gray-600">
+                Skilled plumbers with real experience.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-2 gap-2">
+          <div>
+            <img src="pics/hero.jpg" class="w-full h-52 rounded" alt="" />
+          </div>
+          <div>
+            <img src="pics/hero.jpg" class="w-full h-52 rounded" alt="" />
+          </div>
+          <div>
+            <img src="pics/hero.jpg" class="w-full h-52 rounded" alt="" />
+          </div>
+          <div>
+            <img src="pics/hero.jpg" class="w-full h-52 rounded" alt="" />
+          </div>
+        </div>
+      </section>
 
       <section id="why-choose-us" class="max-w-[90%] mx-auto">
         <div>
@@ -309,7 +385,9 @@
         </div>
       </section>
       <section id="process" class="">
-        <div class="grid grid-cols-2 items-center justify-center max-w-[90%] mx-auto ">
+        <div
+          class="grid grid-cols-2 items-center justify-center max-w-[90%] mx-auto"
+        >
           <div class="p-4">
             <img src="pics/hero.jpg" class="rounded h-148" alt="" />
           </div>
@@ -322,16 +400,912 @@
             </p>
 
             <div class="">
-              <img src="pics/diagram.png" class="w-full h-full" alt="">
+              <img src="pics/diagram.png" class="w-full h-full" alt="" />
             </div>
 
             <div>
-              <a href="" class="ml-10 bg-primary px-3 py-4 rounded text-white text-center flex items-center inline-block rounded-lg hover:scale-90 duration-300 transition-all transform font-bold shadow-sm">GET YOUR WORK DONE</a>
+              <a
+                href=""
+                class="ml-10 bg-primary px-3 py-4 rounded text-white text-center flex items-center inline-block rounded-lg hover:scale-90 duration-300 transition-all transform font-bold shadow-sm"
+                >GET YOUR WORK DONE</a
+              >
             </div>
           </div>
         </div>
       </section>
-   
+      <section id="reviews" class="max-w-[90%] mx-auto">
+        <div>
+          <div>
+            <h2 class="font-bold text-4xl">What People Say</h2>
+            <p class="text-gray-600 max-w-[100ch] leading-normal mb-3">
+              We focus on doing the job right the first time. Our goal is to
+              give you dependable service you can trust without stress or
+              confusion.
+            </p>
+          </div>
+          <div class="relative w-full overflow-hidden px-6">
+            <!-- Carousel 1 -->
+            <div class="relative w-full overflow-hidden">
+              <div id="track" class="flex scrollbar-hide gap-4">
+                <div
+                  class="cards min-w-[300px] h-[250px] bg-white rounded-xl flex flex-col items-start p-4 snap-start"
+                >
+                  <div class="flex space-x-1 mb-2">
+                    <i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i>
+                  </div>
+                  <p class="mb-2">
+                    The plumbers came on time and fixed everything properly. I
+                    am very happy with their work and would call them again.
+                  </p>
+                  <p class="font-bold">John Doe</p>
+                  <p class="text-sm text-gray-500">Homeowner</p>
+                </div>
+
+                <div
+                  class="cards min-w-[300px] h-[250px] bg-white rounded-xl flex flex-col items-start p-4 snap-start"
+                >
+                  <div class="flex space-x-1 mb-2">
+                    <i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i>
+                  </div>
+                  <p class="mb-2">
+                    Quick response and great work. They ensured everything was
+                    fixed properly and left no mess.
+                  </p>
+                  <p class="font-bold">Ethan Scott</p>
+                  <p class="text-sm text-gray-500">Homeowner</p>
+                </div>
+
+                <div
+                  class="cards min-w-[300px] h-[250px] bg-white rounded-xl flex flex-col items-start p-4 snap-start"
+                >
+                  <div class="flex space-x-1 mb-2">
+                    <i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i>
+                  </div>
+                  <p class="mb-2">
+                    They replaced the bathroom sink and everything works
+                    perfectly. Friendly and professional team.
+                  </p>
+                  <p class="font-bold">Grace Young</p>
+                  <p class="text-sm text-gray-500">Tenant</p>
+                </div>
+
+                <div
+                  class="cards min-w-[300px] h-[250px] bg-white rounded-xl flex flex-col items-start p-4 snap-start"
+                >
+                  <div class="flex space-x-1 mb-2">
+                    <i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i>
+                  </div>
+                  <p class="mb-2">
+                    The plumbers were careful, explained everything, and fixed
+                    the issue quickly. Very happy with their work.
+                  </p>
+                  <p class="font-bold">Henry Lewis</p>
+                  <p class="text-sm text-gray-500">Homeowner</p>
+                </div>
+
+                <div
+                  class="cards min-w-[300px] h-[250px] bg-white rounded-xl flex flex-col items-start p-4 snap-start"
+                >
+                  <div class="flex space-x-1 mb-2">
+                    <i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i>
+                  </div>
+                  <p class="mb-2">
+                    Very professional and polite team. They fixed everything
+                    correctly and left no mess behind.
+                  </p>
+                  <p class="font-bold">Lily Robinson</p>
+                  <p class="text-sm text-gray-500">Tenant</p>
+                </div>
+                <div
+                  class="cards min-w-[300px] h-[250px] bg-white rounded-xl flex flex-col items-start p-4 snap-start"
+                >
+                  <div class="flex space-x-1 mb-2">
+                    <i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i>
+                  </div>
+                  <p class="mb-2">
+                    They explained everything clearly and did not rush. The
+                    repair was done well and I understand what they did to fix
+                    it.
+                  </p>
+                  <p class="font-bold">Jane Smith</p>
+                  <p class="text-sm text-gray-500">Tenant</p>
+                </div>
+
+                <div
+                  class="cards min-w-[300px] h-[250px] bg-white rounded-xl flex flex-col items-start p-4 snap-start"
+                >
+                  <div class="flex space-x-1 mb-2">
+                    <i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i>
+                  </div>
+                  <p class="mb-2">
+                    I had a big leak in my bathroom. They fixed it fast and
+                    cleaned up everything. I feel very satisfied with the
+                    service.
+                  </p>
+                  <p class="font-bold">Michael Lee</p>
+                  <p class="text-sm text-gray-500">Homeowner</p>
+                </div>
+
+                <div
+                  class="cards min-w-[300px] h-[250px] bg-white rounded-xl flex flex-col items-start p-4 snap-start"
+                >
+                  <div class="flex space-x-1 mb-2">
+                    <i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i>
+                  </div>
+                  <p class="mb-2">
+                    They replaced my old pipes and explained what needed to be
+                    done. Everything works perfectly now and I am happy I chose
+                    them.
+                  </p>
+                  <p class="font-bold">Sarah Brown</p>
+                  <p class="text-sm text-gray-500">Landlord</p>
+                </div>
+
+                <div
+                  class="cards min-w-[300px] h-[250px] bg-white rounded-xl flex flex-col items-start p-4 snap-start"
+                >
+                  <div class="flex space-x-1 mb-2">
+                    <i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i>
+                  </div>
+                  <p class="mb-2">
+                    I called them in the morning and they arrived the same day.
+                    The work was done well and they were polite and careful.
+                  </p>
+                  <p class="font-bold">David Kim</p>
+                  <p class="text-sm text-gray-500">Apartment Owner</p>
+                </div>
+
+                <div
+                  class="cards min-w-[300px] h-[250px] bg-white rounded-xl flex flex-col items-start p-4 snap-start"
+                >
+                  <div class="flex space-x-1 mb-2">
+                    <i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i>
+                  </div>
+                  <p class="mb-2">
+                    The team was friendly and explained everything in a way I
+                    could understand. I feel confident my plumbing is now safe
+                    and secure.
+                  </p>
+                  <p class="font-bold">Emma Wilson</p>
+                  <p class="text-sm text-gray-500">Homeowner</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Carousel 2 -->
+            <div class="flex w-full overflow-hidden mt-4">
+              <div id="track-2" class="flex gap-4">
+                <div
+                  class="cards-2 min-w-[300px] h-[250px] bg-white rounded-xl flex flex-col items-start p-4 snap-start"
+                >
+                  <div class="flex space-x-1 mb-2">
+                    <i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i>
+                  </div>
+                  <p class="mb-2">
+                    They found the problem quickly and fixed it without causing
+                    a mess. I feel they really know their work and take care of
+                    customers.
+                  </p>
+                  <p class="font-bold">Chris Johnson</p>
+                  <p class="text-sm text-gray-500">Tenant</p>
+                </div>
+
+                <div
+                  class="cards-2 min-w-[300px] h-[250px] bg-white rounded-xl flex flex-col items-start p-4 snap-start"
+                >
+                  <div class="flex space-x-1 mb-2">
+                    <i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i>
+                  </div>
+                  <p class="mb-2">
+                    I am impressed with how fast they worked and how careful
+                    they were. They explained each step and made sure everything
+                    was working properly.
+                  </p>
+                  <p class="font-bold">Olivia Martinez</p>
+                  <p class="text-sm text-gray-500">Homeowner</p>
+                </div>
+
+                <!-- Additional 8 cards for carousel 1 -->
+                <div
+                  class="cards min-w-[300px] h-[250px] bg-white rounded-xl flex flex-col items-start p-4 snap-start"
+                >
+                  <div class="flex space-x-1 mb-2">
+                    <i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i>
+                  </div>
+                  <p class="mb-2">
+                    The service was excellent. They took care of the issue
+                    quickly and explained everything clearly.
+                  </p>
+                  <p class="font-bold">Mason White</p>
+                  <p class="text-sm text-gray-500">Homeowner</p>
+                </div>
+
+                <div
+                  class="cards min-w-[300px] h-[250px] bg-white rounded-xl flex flex-col items-start p-4 snap-start"
+                >
+                  <div class="flex space-x-1 mb-2">
+                    <i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i>
+                  </div>
+                  <p class="mb-2">
+                    They replaced my pipes quickly and left everything clean.
+                    Very satisfied with the work.
+                  </p>
+                  <p class="font-bold">Ella Green</p>
+                  <p class="text-sm text-gray-500">Tenant</p>
+                </div>
+
+                <div
+                  class="cards min-w-[300px] h-[250px] bg-white rounded-xl flex flex-col items-start p-4 snap-start"
+                >
+                  <div class="flex space-x-1 mb-2">
+                    <i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i>
+                  </div>
+                  <p class="mb-2">
+                    They fixed my leak and explained how to prevent it in the
+                    future. Professional and reliable.
+                  </p>
+                  <p class="font-bold">Lucas Hall</p>
+                  <p class="text-sm text-gray-500">Homeowner</p>
+                </div>
+
+                <div
+                  class="cards min-w-[300px] h-[250px] bg-white rounded-xl flex flex-col items-start p-4 snap-start"
+                >
+                  <div class="flex space-x-1 mb-2">
+                    <i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i>
+                  </div>
+                  <p class="mb-2">
+                    The team was fast, polite, and explained each step.
+                    Everything works perfectly now.
+                  </p>
+                  <p class="font-bold">Chloe Adams</p>
+                  <p class="text-sm text-gray-500">Tenant</p>
+                </div>
+                <div
+                  class="cards-2 min-w-[300px] h-[250px] bg-white rounded-xl flex flex-col items-start p-4 snap-start"
+                >
+                  <div class="flex space-x-1 mb-2">
+                    <i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i>
+                  </div>
+                  <p class="mb-2">
+                    They repaired the broken pipe and tested everything
+                    carefully. I feel relieved knowing my plumbing is now safe
+                    and reliable.
+                  </p>
+                  <p class="font-bold">Liam Davis</p>
+                  <p class="text-sm text-gray-500">Landlord</p>
+                </div>
+
+                <div
+                  class="cards-2 min-w-[300px] h-[250px] bg-white rounded-xl flex flex-col items-start p-4 snap-start"
+                >
+                  <div class="flex space-x-1 mb-2">
+                    <i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i>
+                  </div>
+                  <p class="mb-2">
+                    The plumbers were polite and professional. They explained
+                    what was wrong, fixed it well, and left everything clean. I
+                    am very satisfied.
+                  </p>
+                  <p class="font-bold">Sophia Taylor</p>
+                  <p class="text-sm text-gray-500">Homeowner</p>
+                </div>
+
+                <div
+                  class="cards-2 min-w-[300px] h-[250px] bg-white rounded-xl flex flex-col items-start p-4 snap-start"
+                >
+                  <div class="flex space-x-1 mb-2">
+                    <i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i>
+                  </div>
+                  <p class="mb-2">
+                    I had a small leak, and they fixed it quickly. They were
+                    careful not to damage anything and explained how to avoid
+                    problems in the future.
+                  </p>
+                  <p class="font-bold">Noah Anderson</p>
+                  <p class="text-sm text-gray-500">Tenant</p>
+                </div>
+
+                <div
+                  class="cards-2 min-w-[300px] h-[250px] bg-white rounded-xl flex flex-col items-start p-4 snap-start"
+                >
+                  <div class="flex space-x-1 mb-2">
+                    <i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i
+                    ><i
+                      data-lucide="star"
+                      class="p-1 w-6 h-6 rounded-full bg-primary"
+                      fill="#fff"
+                      stroke="0"
+                    ></i>
+                  </div>
+                  <p class="mb-2">
+                    They installed a new sink and it works perfectly. They were
+                    careful, explained everything, and I feel confident with
+                    their work.
+                  </p>
+                  <p class="font-bold">Ava Thomas</p>
+                  <p class="text-sm text-gray-500">Homeowner</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="faqs"></section>
     </main>
   </body>
 </html>
