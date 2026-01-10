@@ -9,84 +9,79 @@
     <title>PLUMBING</title>
   </head>
   <body>
-    <header
-      class="h-[80dvh] bg-gradient-to-tr py-4 to-[#4ebefb] from-[#63d39a]"
-    >
-      <div>
-        <div class="flex items-center justify-between max-w-[90%] mx-auto">
-          <h1 class="text-white text-4xl font-bold">FlexFlow</h1>
-          <nav class="flex items-center gap-10">
-            <a
-              href=""
-              class="text-white font-regular text-shadow-sm hover:underline transition-all duration-300"
-              >Home</a
-            >
-            <a
-              href=""
-              class="text-white font-regular text-shadow-sm hover:underline transition-all duration-300"
-              >Services</a
-            >
-            <a
-              href=""
-              class="text-white font-regular text-shadow-sm hover:underline transition-all duration-300"
-              >About Us</a
-            >
-            <a
-              href=""
-              class="text-white font-regular text-shadow-sm hover:underline transition-all duration-300"
-              >Projects</a
-            >
-            <a
-              href=""
-              class="text-white font-regular text-shadow-sm hover:underline transition-all duration-300"
-              >Blog</a
-            >
-            <a
-              href=""
-              class="text-white font-regular text-shadow-sm hover:underline transition-all duration-300"
-              >Contact</a
-            >
-          </nav>
-        </div>
-        <div
-          class="flex w-full gap-2 py-4 bg-gradient-to-r items-end justify-end from-sky-500 to-sky-600"
-        >
+    <header class="h-[70dvh] grid items-center">
+      <div class="">
+        <nav class="space-x-16 flex items-center justify-center">
           <a
-            href=""
-            class="self-end font-bold bg-sky-500 rounded-full text-white py-4 px-8"
-            >CALL US</a
+            href="./about.html"
+            class="text-gray-500 hover:underline hover:text-gray-600 transition-all duration-300"
+            >About</a
           >
-        </div>
-        <div class="max-w-[90%] mx-auto flex justify-between">
-          <div>
-            <h2 class="text-white text-4xl font-bold max-w-[20ch] mb-2">
-              Plumbing Solutions, Tailored For You
-            </h2>
-            <p class="text-gray-100 text-sm max-w-[40ch] leading-normal mb-3">
-              We provide reliable plumbing services for homes and businesses.
-              Our team focuses on quality work, clear pricing, and fast response
-              times.
-            </p>
-            <div class="space-x-2 flex">
-              <a
-                href=""
-                class="text-white font-bold bg-primary px-6 rounded-lg py-4 hover:scale-90 transform duration-300 transition-all block"
-                >BOOK NOW</a
+          <a
+            href="#services"
+            class="text-gray-500 hover:underline hover:text-gray-600 transition-all duration-300"
+            >Services</a
+          >
+          <a
+            href="#cta"
+            class="text-gray-500 hover:underline hover:text-gray-600 transition-all duration-300"
+            >Contact</a
+          >
+          <a
+            href="#reviews"
+            class="text-gray-500 hover:underline hover:text-gray-600 transition-all duration-300"
+            >Reviews</a
+          >
+          <a
+            href="#footer"
+            class="text-gray-500 hover:underline hover:text-gray-600 transition-all duration-300"
+            >Other links</a
+          >
+        </nav>
+        <div class="max-w-[90%] mx-auto">
+          <h2 class="font-bold text-5xl max-w-[20ch] mb-6 mt-16">
+            Plumbing Solutions, Tailored For You
+          </h2>
+          <p class="max-w-[45ch] leading-normal text-base text-gray-600 mb-9">
+            We provide reliable plumbing services for homes and businesses. Our
+            team focuses on quality work, clear pricing, and fast response
+            times.
+          </p>
+
+          <div class="mb-10">
+            <div
+              class="flex flex-col items-center justify-center gap-6 inline-block"
+            >
+              <div
+                class="button w-42 h-14 bg-[#008cff] rounded-lg cursor-pointer select-none hover:translate-y-2 hover:[box-shadow:0_0px_0_0_#000,0_0px_0_0] hover:border-b-[0px] transition-all duration-300 [box-shadow:0_10px_0_0_#000,0_12px_0_0] border-b-[1px] border-blue-400"
               >
-              <a
-                href=""
-                class="text-black font-bold bg-yellow-300 px-6 rounded-lg py-4 hover:scale-90 transform duration-300 transition-all block"
-                >EMERGENCY SERVICE</a
+                <span
+                  class="flex flex-col justify-center items-center h-full text-white font-bold text-lg"
+                  >BOOK NOW</span
+                >
+              </div>
+            </div>
+            <div
+              class="flex flex-col items-center justify-center gap-6 inline-block"
+            >
+              <div
+                class="button w-60 h-14 bg-yellow-300 text-black rounded-lg cursor-pointer select-none hover:translate-y-2 hover:[box-shadow:0_0px_0_0_#000,0_0px_0_0] hover:border-b-[0px] transition-all duration-300 [box-shadow:0_10px_0_0_#000,0_12px_0_0] border-b-[1px] border-black"
               >
+                <span
+                  class="flex flex-col justify-center items-center h-full font-bold text-lg"
+                  >EMERGENCY SERVICE</span
+                >
+              </div>
             </div>
           </div>
-          <div class="w-[80%] self-end">
-            <img
-              src="pics/hero.jpg"
-              class="rounded w-full max-h-[350px]"
-              alt=""
-            />
-          </div>
+          <!-- <div class="pb-6 pt-4">
+            <p
+              class="text-gray-600 text-sm flex items-center gap-4 mx-auto block justify-center"
+            >
+              <span>Licensed</span> • <span>Same-Day Service</span> •
+              <span>Upfront Pricing</span>
+            </p>
+          </div> -->
         </div>
       </div>
     </header>
@@ -246,171 +241,221 @@
         </div>
       </section>
 
-      <section id="services" class="grid grid-cols-2 max-w-[90%] mx-auto">
-        <div>
-          <h2 class="font-bold text-4xl">Services We Offer</h2>
-          <p class="text-gray-600 max-w-[100ch] leading-normal mb-3">
-            We handle all types of plumbing work including repairs, new
-            installations, maintenance, and inspections. Our services are
-            designed to keep your systems working properly.
-          </p>
-
-          <a
-            href=""
-            class="text-white font-bold bg-primary px-6 rounded-lg py-4 hover:scale-90 transform duration-300 transition-all inline-block"
-            >View All Services</a
-          >
-
-          <div>
-            <div class="flex items-center gap-1">
-              <i data-lucide="circle-check-big"></i>
-              <p class="text-sm text-gray-600">
-                Fast response for urgent plumbing issues.
-              </p>
-            </div>
-            <div class="flex items-center gap-1">
-              <i data-lucide="circle-check-big"></i>
-              <p class="text-sm text-gray-600">
-                Clear pricing with no hidden charges.
-              </p>
-            </div>
-            <div class="flex items-center gap-1">
-              <i data-lucide="circle-check-big"></i>
-              <p class="text-sm text-gray-600">
-                Skilled plumbers with real experience.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="grid grid-cols-2 gap-2">
-          <div>
-            <img src="pics/hero.jpg" class="w-full h-52 rounded" alt="" />
-          </div>
-          <div>
-            <img src="pics/hero.jpg" class="w-full h-52 rounded" alt="" />
-          </div>
-          <div>
-            <img src="pics/hero.jpg" class="w-full h-52 rounded" alt="" />
-          </div>
-          <div>
-            <img src="pics/hero.jpg" class="w-full h-52 rounded" alt="" />
-          </div>
-        </div>
-      </section>
-
       <section id="why-choose-us" class="max-w-[90%] mx-auto">
-        <div>
-          <h2 class="font-bold text-4xl">Why Choose Us</h2>
-          <p class="text-gray-600 max-w-[100ch] leading-normal mb-3">
-            We focus on doing the job right the first time. Our goal is to give
-            you dependable service you can trust without stress or confusion.
-          </p>
-          <a
-            href=""
-            class="text-white font-bold bg-primary px-6 rounded-lg py-4 hover:scale-90 transform duration-300 transition-all inline-block"
-            >View All Services</a
-          >
-        </div>
+        <div class="grid grid-cols-2 mb-8 gap-6">
+          <div>
+            <div>
+              <h2 class="font-bold text-4xl mb-5">Why Choose Us</h2>
+              <p
+                class="text-gray-600 max-w-[60ch] leading-normal mb-3 text-base mb-14"
+              >
+                We focus on delivering dependable plumbing solutions with
+                consistent quality and care. Every job is handled by skilled
+                professionals who pay close attention to accuracy and safety.
+                Our approach is straightforward, honest, and efficient, ensuring
+                reliable results and a smooth experience from start to finish.
+              </p>
 
-        <div class="space-y-24 max-w-[90%] mx-auto mt-8">
-          <div class="w-full h-[300px] flex justify-between">
-            <div class="flex gap-6 items-start">
-              <h4 class="text-7xl font-bold">1</h4>
-              <div class="flex flex-col">
-                <h5 class="font-bold">On Time Arrival</h5>
-                <p class="max-w-[40ch] text-gray-600 text-sm">
-                  We arrive on time and are fully prepared for the job. We
-                  respect your schedule and do not waste your time. Our team
-                  works efficiently while still paying attention to details, so
-                  the work is done correctly without rushing.
-                </p>
+              <div id="why-us-cards" class="grid grid-cols-2 gap-5 space-y-6">
+                <div class="flex items-start gap-4">
+                  <div>
+                    <h4 class="text-primary font-bold text-3xl">01</h4>
+                  </div>
+                  <div class="flex flex-col">
+                    <h5 class="font-bold text-lg mb-1">
+                      Licensed & Experienced
+                    </h5>
+                    <p class="text-sm text-gray-600">
+                      Our plumbers are fully licensed and trained to handle
+                      residential and commercial plumbing work safely and
+                      correctly.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="flex items-start gap-4">
+                  <div>
+                    <h4 class="text-primary font-bold text-3xl">02</h4>
+                  </div>
+                  <div class="flex flex-col">
+                    <h5 class="font-bold text-lg mb-1">Fast Response Time</h5>
+                    <p class="text-sm text-gray-600">
+                      We respond quickly to emergencies and scheduled jobs to
+                      prevent water damage and costly repairs.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="flex items-start gap-4">
+                  <div>
+                    <h4 class="text-primary font-bold text-3xl">03</h4>
+                  </div>
+                  <div class="flex flex-col">
+                    <h5 class="font-bold text-lg mb-1">Transparent Pricing</h5>
+                    <p class="text-sm text-gray-600">
+                      You get clear pricing before work starts. No hidden fees,
+                      no surprise charges after the job is done.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="flex items-start gap-4">
+                  <div>
+                    <h4 class="text-primary font-bold text-3xl">04</h4>
+                  </div>
+                  <div class="flex flex-col">
+                    <h5 class="font-bold text-xl mb-2">Mordern Plumbing</h5>
+                    <p class="text-sm text-gray-600">
+                      Smart, efficient solutions using modern tools and proven
+                      techniques to deliver reliable, long-lasting plumbing
+                      results.
+                    </p>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div>
-              <img src="pics/hero.jpg" class="w-full h-[280px]" alt="" />
+
+              <!-- <div class="relative flex items-center mt-36 gap-12">
+                <div class="flex flex-col items-center1">
+                  <i data-lucide="search" class="text-primary w-20 h-20 mb-4"></i>
+                  <h3 class="font-bold text-sm">Free Inspection</h3>
+                </div>
+                <div class="flex flex-col items-center1">
+                  <i data-lucide="zap" class="text-primary w-20 h-20 mb-4"></i>
+                  <h3 class="font-bold text-sm">Fast Service</h3>
+                </div>
+                <div class="flex flex-col items-center1">
+                  <i data-lucide="shield-check" class="text-primary w-20 h-20 mb-4"></i>
+                  <h3 class="font-bold text-sm">Reliable Results</h3>
+                </div>
+              </div> -->
             </div>
           </div>
-          <div class="w-full h-[300px] flex justify-between">
-            <div>
-              <img src="pics/hero.jpg" class="w-full h-[280px]" alt="" />
-            </div>
-            <div class="flex gap-6 items-start">
-              <h4 class="text-7xl font-bold">2</h4>
-              <div class="flex flex-col">
-                <h5 class="font-bold">Clear Explanations</h5>
-                <p class="max-w-[40ch] text-gray-600 text-sm">
-                  We explain the problem in a clear and simple way before
-                  starting any work. You will know what is wrong, what needs to
-                  be fixed, and how long it will take. There are no confusing
-                  terms or unclear answers.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="w-full h-[300px] flex justify-between">
-            <div class="flex gap-6 items-start">
-              <h4 class="text-7xl font-bold">3</h4>
-              <div class="flex flex-col">
-                <h5 class="font-bold">Quality Materials</h5>
-                <p class="max-w-[40ch] text-gray-600 text-sm">
-                  We use the right tools and good quality materials for every
-                  job. This helps prevent future issues and ensures the repair
-                  or installation lasts longer. We do not take shortcuts that
-                  can cause problems later.
-                </p>
-              </div>
-            </div>
-            <div>
-              <img src="pics/hero.jpg" class="w-full h-[280px]" alt="" />
-            </div>
-          </div>
-          <div class="w-full h-[300px] flex justify-between">
-            <div>
-              <img src="pics/hero.jpg" class="w-full h-[280px]" alt="" />
-            </div>
-            <div class="flex gap-6 items-start">
-              <h4 class="text-7xl font-bold">4</h4>
-              <div class="flex flex-col">
-                <h5 class="font-bold">Clean & Test</h5>
-                <p class="max-w-[40ch] text-gray-600 text-sm">
-                  We clean up the area after the work is done and test
-                  everything before leaving. We make sure the plumbing works as
-                  it should and that you are satisfied with the result before we
-                  finish the job.
-                </p>
-              </div>
-            </div>
+          <div class="rounded-4xl" id="grid-image">
+            <img
+              src="pics/plumber-man.jpg"
+              class="h-134 self-end rounded-full justify-self-center"
+              alt=""
+            />
           </div>
         </div>
       </section>
-      <section id="process" class="">
-        <div
-          class="grid grid-cols-2 items-center justify-center max-w-[90%] mx-auto"
-        >
-          <div class="p-4">
-            <img src="pics/hero.jpg" class="rounded h-148" alt="" />
-          </div>
-          <div>
-            <h2 class="font-bold ml-10 text-4xl mb-2">How We Work</h2>
-            <p class="text-sm max-w-[100ch] leading-normal mb-3 ml-10">
-              We focus on doing the job right the first time. Our goal is to
-              give you dependable service you can trust without stress or
-              confusion.
-            </p>
+      <section id="process" class="max-w-[90%] mx-auto">
+        <div>
+          <h2 class="font-bold text-4xl mb-5">How We Work</h2>
+          <p class="text-gray-600 max-w-[60ch] leading-normal mb-6 text-base">
+            Our process is built to be clear, efficient, and transparent. From
+            first contact to final inspection, we follow a structured approach
+            that ensures accurate work, fair pricing, and reliable results with
+            no unnecessary delays or surprises.
+          </p>
+        </div>
+        <div class="flex flex-col gap-0">
+         <!-- FIRST ROW -->
+<div class="flex items-center">
+  <div class="flex items-center px-2 gap-2">
+    <div>
+      <div
+        class="process-card h-[180px] px-6 py-8 w-[320px] bg-gray-100 text-sm leading-normal text-gray-500 rounded shadow"
+      >
+        <h4 class="font-bold text-lg text-black mb-1">Contact Us</h4>
+        <p class="text-gray-500 text-sm">
+          We respond quickly to calls or messages and gather the details
+          of your plumbing issue.
+        </p>
+      </div>
+    </div>
+    <i
+      data-lucide="move-right"
+      class="w-6 h-6 mt-2 text-primary"
+      fill=""
+    ></i>
+  </div>
 
-            <div class="">
-              <img src="pics/diagram.png" class="w-full h-full" alt="" />
-            </div>
+  <div class="flex items-center gap-2 px-2">
+    <div>
+      <div
+        class="process-card h-[180px] px-6 py-8 w-[320px] bg-gray-100 text-sm leading-normal text-gray-500 rounded shadow"
+      >
+        <h4 class="font-bold text-lg text-black mb-1">Schedule Visit</h4>
+        <p class="text-gray-500 text-sm">
+         We arrange a good time for your service or respond immediately in case of emergency.
+        </p>
+      </div>
+    </div>
+    <i
+      data-lucide="move-right"
+      class="w-6 h-6 mt-2 text-primary"
+      fill=""
+    ></i>
+  </div>
 
-            <div>
-              <a
-                href=""
-                class="ml-10 bg-primary px-3 py-4 rounded text-white text-center flex items-center inline-block rounded-lg hover:scale-90 duration-300 transition-all transform font-bold shadow-sm"
-                >GET YOUR WORK DONE</a
-              >
-            </div>
-          </div>
+  <div class="flex items-center">
+    <div>
+      <div
+        class="process-card h-[180px] px-6 py-8 w-[320px] bg-gray-100 text-sm leading-normal text-gray-500 rounded shadow"
+      >
+        <h4 class="font-bold text-lg text-black mb-1">Inspection</h4>
+        <p class="text-gray-500 text-sm">
+          Our licensed plumber inspects the problem on-site to identify
+          the cause accurately.
+        </p>
+      </div>
+    </div>
+    <i
+      data-lucide="redo"
+      class="rotate-90 w-18 h-20 mt-40 text-primary"
+    ></i>
+  </div>
+</div>
+
+<!-- SECOND ROW -->
+<div class="flex items-center">
+  <div class="flex items-center gap-2 px-2">
+    <div>
+      <div
+        class="process-card h-[180px] px-6 py-8 w-[320px] bg-gray-100 text-sm leading-normal text-gray-500 rounded shadow"
+      >
+        <h4 class="font-bold text-lg text-black mb-1">Testing & Cleanup</h4>
+        <p class="text-gray-500 text-sm">
+          The work is tested, the area is cleaned, and follow-up support
+          is provided if needed.
+        </p>
+      </div>
+    </div>
+    <i data-lucide="move-left" class="w-6 h-6 mt-2 text-primary"></i>
+  </div>
+  <div class="flex items-center gap-2 px-2">
+    <div>
+      <div
+        class="process-card h-[180px] px-6 py-8 w-[320px] bg-gray-100 text-sm leading-normal text-gray-500 rounded shadow"
+      >
+        <h4 class="font-bold text-lg text-black mb-1">Repair / Installation</h4>
+        <p class="text-gray-500 text-sm">
+          We carry out the repair / installation using the right tools & high-quality materials to ensure good results.
+        </p>
+      </div>
+    </div>
+    <i
+      data-lucide="move-left"
+      class="w-6 h-6 mt-2 text-primary"
+      fill=""
+    ></i>
+  </div>
+
+  <div class="flex items-center">
+    <div>
+      <div
+        class="process-card h-[180px] px-6 py-8 w-[320px] bg-gray-100 text-sm leading-normal text-gray-500 rounded shadow"
+      >
+        <h4 class="font-bold text-lg text-black mb-1">Quote Approval</h4>
+        <p class="text-gray-500 text-sm">
+           You receive a clear & upfront price before any work begins, so you know exactly what to expect.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
         </div>
       </section>
       <section id="reviews" class="max-w-[90%] mx-auto">
