@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap");
 
 body {
-    font-family: 'Manrope', sans-serif;
-    background-color: #F4F4F4;
+  font-family: "Manrope", sans-serif;
+  background-color: #f4f4f4;
 }
 
 @import "tailwindcss";
@@ -24,7 +24,7 @@ body {
 }
 
 #hero-btn::after {
-  content: '';
+  content: "";
   width: 135px;
   height: 20px;
   background-color: #000;
@@ -40,7 +40,7 @@ html {
 }
 
 .service-cards::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 600px;
   height: 30px;
@@ -81,9 +81,8 @@ html {
 .div {
   border-top: solid 4px #008cff;
   border-style: dashed;
-  
 }
 
 .map {
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.20);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }

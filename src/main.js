@@ -1,16 +1,69 @@
-import { Star,CornerDownLeft,CheckCircle, CheckCheck, CircleCheckBig, createIcons, TrendingUp,Phone, Search, ToolCase, Check, Wrench, UserRound, Droplets, Bath, Flame, DollarSign, ShieldCheck, CloudLightning, Zap, Smile, ArrowBigRight, MoveRight, CornerRightDown, Redo, MoveLeft, MapPinned, MapPin} from "lucide";
-
+import {
+  Star,
+  CornerDownLeft,
+  CheckCircle,
+  CheckCheck,
+  CircleCheckBig,
+  createIcons,
+  TrendingUp,
+  Phone,
+  Search,
+  ToolCase,
+  Check,
+  Wrench,
+  UserRound,
+  Droplets,
+  Bath,
+  Flame,
+  DollarSign,
+  ShieldCheck,
+  CloudLightning,
+  Zap,
+  Smile,
+  ArrowBigRight,
+  MoveRight,
+  CornerRightDown,
+  Redo,
+  MoveLeft,
+  MapPinned,
+  MapPin,
+} from "lucide";
 
 document.addEventListener("DOMContentLoaded", () => {
   createIcons({
     icons: {
-      TrendingUp, CheckCheck, CircleCheckBig, CornerDownLeft,Phone, Search, ToolCase, Check, CheckCircle, Wrench, Star, UserRound, Droplets, Bath, Flame, DollarSign, Search, ShieldCheck, Zap, Smile, MoveRight, CornerRightDown, Redo, MoveLeft, MapPinned, MapPin
+      TrendingUp,
+      CheckCheck,
+      CircleCheckBig,
+      CornerDownLeft,
+      Phone,
+      Search,
+      ToolCase,
+      Check,
+      CheckCircle,
+      Wrench,
+      Star,
+      UserRound,
+      Droplets,
+      Bath,
+      Flame,
+      DollarSign,
+      Search,
+      ShieldCheck,
+      Zap,
+      Smile,
+      MoveRight,
+      CornerRightDown,
+      Redo,
+      MoveLeft,
+      MapPinned,
+      MapPin,
     },
   });
 });
 
-const track = document.getElementById('track');
-const card = document.querySelector('.cards');
+const track = document.getElementById("track");
+const card = document.querySelector(".cards");
 const style = getComputedStyle(card);
 const cardWidth = card.offsetWidth + parseInt(style.marginRight);
 const cardCount = 5;
@@ -34,7 +87,8 @@ animate();
 let track2 = document.getElementById("track-2");
 let cards2 = document.querySelectorAll(".cards-2");
 
-const cardWidth2 = cards2[0].offsetWidth + parseInt(getComputedStyle(cards2[0]).marginRight);
+const cardWidth2 =
+  cards2[0].offsetWidth + parseInt(getComputedStyle(cards2[0]).marginRight);
 const cards2Amount = 5; // number of unique cards
 const loopWidth2 = cardWidth2 * cards2Amount;
 
