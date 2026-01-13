@@ -1,10 +1,10 @@
-import { Star,CornerDownLeft,CheckCircle, CheckCheck, CircleCheckBig, createIcons, TrendingUp,Phone, Search, ToolCase, Check, Wrench, UserRound, Droplets, Bath, Flame, DollarSign, ShieldCheck, CloudLightning, Zap, Smile, ArrowBigRight, MoveRight, CornerRightDown, Redo, MoveLeft} from "lucide";
+import { Star,CornerDownLeft,CheckCircle, CheckCheck, CircleCheckBig, createIcons, TrendingUp,Phone, Search, ToolCase, Check, Wrench, UserRound, Droplets, Bath, Flame, DollarSign, ShieldCheck, CloudLightning, Zap, Smile, ArrowBigRight, MoveRight, CornerRightDown, Redo, MoveLeft, MapPinned, MapPin} from "lucide";
 
 
 document.addEventListener("DOMContentLoaded", () => {
   createIcons({
     icons: {
-      TrendingUp, CheckCheck, CircleCheckBig, CornerDownLeft,Phone, Search, ToolCase, Check, CheckCircle, Wrench, Star, UserRound, Droplets, Bath, Flame, DollarSign, Search, ShieldCheck, Zap, Smile, MoveRight, CornerRightDown, Redo, MoveLeft
+      TrendingUp, CheckCheck, CircleCheckBig, CornerDownLeft,Phone, Search, ToolCase, Check, CheckCircle, Wrench, Star, UserRound, Droplets, Bath, Flame, DollarSign, Search, ShieldCheck, Zap, Smile, MoveRight, CornerRightDown, Redo, MoveLeft, MapPinned, MapPin
     },
   });
 });

@@ -1,13 +1,72 @@
-service
-about/why choose us
-emergency
-reviews
-faq
-contact section(map bhi) make a form
-footer
+Hero
+Services
+Emergency
+why choose us
+sercie areas
+Reviews
+FAQ
+
+PUTEVEN SPACING BW SECTIONS AND REMOVE THE MB-8 FROM ESRVICE AREAS'S BUTTON
+Contact
+Footer
 
 about section bnaoo
 with image in background (of the team)
+
+Add phone number to header
+
+Top right
+
+Click-to-call (tel:)
+
+Change hero headline
+
+From branding → emergency + location
+Example:
+24/7 Emergency Plumber in [City]
+
+Change primary CTA
+
+Replace BOOK NOW → CALL NOW
+
+Button links to tel:
+
+Add sticky mobile call button
+
+Fixed bottom bar
+
+Big green CALL NOW
+
+Remove fake stats & reviews
+
+Replace with placeholders or real ones only
+
+Add service area section
+
+“Serving [City] & Nearby Areas”
+
+Cut text by ~40%
+
+Short bullets > paragraphs
+
+Add trust row under hero
+
+Licensed • Insured • Same-Day • Upfront Pricing
+
+Reduce animations
+
+Keep hover only
+
+Remove auto-scrolling carousels
+
+Add contact section
+
+Phone
+
+Hours
+
+Emergency note
+
 
 google review ki wo card and online support wala button and go back up wala button
 
