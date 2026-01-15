@@ -1,4 +1,5 @@
 import {
+  MessageCircleMore,
   Star,
   CornerDownLeft,
   CheckCircle,
@@ -27,11 +28,14 @@ import {
   MoveLeft,
   MapPinned,
   MapPin,
+  Minus,
+  Plus,
 } from "lucide";
 
 document.addEventListener("DOMContentLoaded", () => {
   createIcons({
     icons: {
+      MessageCircleMore,
       TrendingUp,
       CheckCheck,
       CircleCheckBig,
@@ -58,6 +62,8 @@ document.addEventListener("DOMContentLoaded", () => {
       MoveLeft,
       MapPinned,
       MapPin,
+      Plus,
+      Minus
     },
   });
 });
@@ -108,3 +114,8 @@ function animate2() {
 }
 
 animate2();
+
+
+// FAQs SECTION'S LOGIC
+
+
