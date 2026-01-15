@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", () => {
       MapPinned,
       MapPin,
       Plus,
-      Minus
+      Minus,
     },
   });
 });
@@ -90,6 +90,7 @@ function animate() {
 }
 
 animate();
+
 const track2 = document.getElementById("track-2");
 const cards2 = document.querySelector(".cards-2");
 
@@ -115,7 +116,30 @@ function animate2() {
 
 animate2();
 
-
 // FAQs SECTION'S LOGIC
 
+const plusIcons = document.querySelectorAll(".plus");
+const minusIcons = document.querySelectorAll(".minus");
+const answers = document.querySelectorAll(".faqs-p");
 
+plusIcons.forEach((plusIcon, index) => {
+  plusIcon.addEventListener("click", () => {
+    answers[index].classList.remove("hidden");
+
+    plusIcon.classList.add("hidden");
+    minusIcons[index].classList.remove("hidden");
+
+    minusIconLogic();
+  });
+});
+
+function minusIconLogic() {
+  minusIcons.forEach((minusIcon, index) => {
+    minusIcon.addEventListener("click", () => {
+      answers[index].classList.add("hidden");
+
+      plusIcons[index].classList.remove("hidden");
+      minusIcon.classList.add("hidden");
+    });
+  });
+}
