@@ -86,3 +86,10 @@ html {
 .map {
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
+
+input,
+textarea {
+  outline: none;
+  background: #f4f4f4;
+  border: 1px solid #008cff;
+}
